@@ -1,0 +1,248 @@
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+.TR {
+  float: left; 
+  width: 45%;
+  margin-left: 2.5%;
+}
+
+.TL{
+  float: right; 
+  width: 45%; 
+  margin-left: 2.5%; 
+  margin-right: 2.5%;
+}
+
+.R{
+ clear: left; 
+ float: left; 
+ width: 45%; 
+ margin-left: 2.5%;
+}
+
+.cancel{
+  float:left;
+  margin-left: 5%;
+margin-right: auto;
+   font-size: 25px; 
+   padding-top: 5%
+}
+.cancel1{
+  float:left; 
+  width: 50%;
+}
+}
+
+/* For Tablet View */
+@media screen
+and (max-device-width: 1024px) {
+.TR {
+  font-size: 150%;
+  padding-bottom: 30%;
+}
+
+.TL{
+  font-size: 150%;
+  padding-bottom: 30%;
+}
+
+.R{
+ font-size: 150%;
+ padding-bottom: 30%;
+}
+
+.Vi{
+  padding-top: 10%;
+  height: 70%;
+  width: 70%;
+}
+.cancel{
+  clear:left;
+  margin-left: auto;
+margin-right: auto;
+}
+.cancel1{
+  width: 100%;
+}
+}
+
+/*/*  For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+video.resize{
+  width: 25%;
+  height: 25%;
+}
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+video.resize{
+  width: 25%;
+  height: 25%;
+}
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+video.resize{
+  width: 25%;
+  height: 25%;
+}
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+video.resize{
+  width: 25%;
+  height: 25%;
+}
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+video.resize{
+  width: 25%;
+  height: 25%;
+}
+}
+.specail {
+border-radius: 10px;
+display: table;
+margin: 2px auto 2px auto;
+padding: 3px;
+font-size: 24px;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover{
+color: #01ECFF;
+text-shadow: 1px 1px 2px red, 0 0 1em #01ECFF, 0 0 0.2em #01ECFF;
+}
+
+.PT{
+font-size: 25px;
+text-align: center;
+}
+
+.hd{
+/* box-shadow: -1px -20px 24px -2px rgba(1,236,255,0.32);*/
+/*font-family:  fantasy;*/
+border-top: solid #01ECFF;
+border-bottom: solid #01ECFF;
+box-sizing: content-box;
+width: 100%;
+color: White ; 
+/*text-shadow: 1px 1px 2px red, 0 0 1em #01ECFF, 0 0 0.2em #01ECFF;*/ 
+text-align: center; 
+margin-bottom: 2.5%;
+margin-top: 2.5%;
+padding-bottom: 2.5%;
+padding-top: 2.5%;
+font-size: 45px;
+clear:LEFT;  
+ 
+}
+
+.round{
+border-radius: 15px ;
+height: 450px; 
+/*box-shadow: 0px 1px 0px #01ECFF; 
+border-top: solid #01ECFF ;*/
+box-shadow: 5px 5px 5px black;
+border-color: black;
+border-top: solid black;
+border-left: solid black;
+padding-left:10px;
+margin-bottom: 5%;
+text-align: left;
+}
+
+.round:hover{
+box-shadow: 0px 1px 1px #01ECFF;
+}
+
+
+.round1{
+border-radius: 15px ;
+padding: 5px;
+height:auto; 
+width: 120px;
+box-shadow: 0px 5px 5px #01ECFF; 
+border-top: solid #01ECFF ;
+}
+
+.round1:hover{
+color: #01ECFF;
+text-shadow: 1px 1px 2px red, 0 0 1em #01ECFF, 0 0 0.2em #01ECFF;
+}
+
+.sk{ 
+text-shadow: 1px 1px 2px #01ECFF, 0 0 1em #01ECFF, 0 0 0.2em #01ECFF; 
+text-align: center;
+font-size: 25px;
+float: left; 
+margin-right:2.5%; 
+margin-left:2.5%
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.center2 {
+text-align: center;
+margin: auto;
+width: 50%;
+padding: 10px;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: white;
+    background: #1F232E;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+    border: solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Highlight{
+  
+  color: #01ECFF ; text-shadow: 1px 1px 2px red, 0 0 1em #01ECFF, 0 0 0.2em #01ECFF;
+}
+.fly{
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-24px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
